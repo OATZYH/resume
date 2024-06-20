@@ -20,7 +20,6 @@ export const Data = {
         "C",
         "Javascript",
         // "Typescript",
-        "Nodejs",
         // "Golang",
       ],
       "Libraries & Frameworks": [
@@ -28,16 +27,20 @@ export const Data = {
         "Nextjs",
         "NextUI",
         "Tailwindcss",
-        "MaterialUI",
         "Vite",
+        "Nodejs",
       ],
       Tools: [
         "Git",
         "GitHub",
+        "Figma",
       ],
       Others: [
         "MySQL",
         "MongoDB",
+        "PostgreSQL",
+        "Prisma",
+        "Docker",
       ]
     },
     softSkills: [
@@ -91,55 +94,57 @@ export const Data = {
     ],
     academic: [
       {
-        career: "Técnico de Nivel Superior Analista Programador",
-        date: "2019",
-        institution: "Universidad Tecnológica de Chile INACAP",
+        career: "B.Eng. Computer Engineering, TH. (GPA 2.50)",
+        date: "2022-Present (Expected May 2026)",
+        institution: "King Mongkut's University of Technology Thonburi, Thailand",
       },
     ],
     projects: [
       {
-        name: "Onboarding Digital",
+        name: "Admin Dashboard",
         company: "Banco de Chile",
         period: "Nov. 2019 - Ene. 2020",
+        stack:"NextJS, MUI, MySQL",
         description: [
           "Control, desarrollo, securitización y despliegue de APIs en plataforma IBM API Connect.",
         ],
       },
       {
-        name: "Captación Digital",
-        company: "Banco Ripley",
-        period: "Ene. 2020 - Feb. 2020",
+        name: "E-commerce Store",
+        company: "Banco de Chile",
+        period: "Nov. 2019 - Ene. 2020",
+        stack:"NextJS, MUI, Redux",
         description: [
-          "Control, desarrollo y securitización de APIs en plataforma IBM API Connect.",
-          "Desarrollo frontend en Angular para el consumo de Web Services SOAP/REST apuntando a ambientes DEV/PRE-PROD/PROD como simulación.",
+          "Control, seguimiento, securitización y despliegue de APIs en plataforma IBM API Connect.",
         ],
       },
       {
-        name: "Agendamiento Remoto",
-        company: "Gobierno de Chile",
-        period: "Mar. 2020 - May. 2020",
+        name: "Expense tracker",
+        company: "Banco de Chile",
+        period: "Nov. 2019 - Ene. 2020",
+        stack:"NextJS, NextUI, PostrgeSQL, Prisma",
         description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular 6 e Ionic 4 para el agendamiento de horas en centros a lo largo de todo Chile.",
+          "Control, seguimiento, securitización y despliegue de APIs en plataforma IBM API Connect.",
         ],
-      },
-      {
-        name: "Altiuz Report Dynamic",
-        company: "Altiuz",
-        period: "Jun. 2020 - Jul. 2020",
-        description: [
-          "Desarrollo de servicio Java para la generación unitaria de documentos, sin la necesidad de tener almacenada la información del mismo en una fuente de datos.",
-        ],
-      },
-      {
-        name: "Desarrollos Tigo",
-        company: "Computec S.A.S",
-        period: "Ago. 2020 - Dic 2020",
-        description: [
-          "Desarrollo Java/Spring Boot de Web Service API REST para consulta y descarga de documentos almacenados en repositorios IBM CMOD.",
-          "Desarrollo Java CRON para transferencia de documentos XML hacia servidor SFTP.",
-          "Desarrollo Java CRON para carga de documentos PDFs hacia Azure Blob Storage.",
-        ],
-      },
+      },  
+    ],
+  },
+  activities: {
+    label: "Activities",
+    activities: [
+     
+    ],
+  },
+  certifications: {
+    label: "Certifications",
+    certifications: [
+     
+    ],
+  },
+  interest : {
+    label: "Interest",
+    interest: [
+      
     ],
   },
 };
