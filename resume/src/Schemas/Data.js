@@ -19,6 +19,8 @@ export const Data = {
       Languages: [
         "C",
         "Javascript",
+        "SQL",
+        "Python",
         // "Typescript",
         // "Golang",
       ],
@@ -29,6 +31,7 @@ export const Data = {
         "Tailwindcss",
         "Vite",
         "Nodejs",
+        "Express",
       ],
       Tools: [
         "Git",
