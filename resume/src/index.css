@@ -237,6 +237,7 @@ body.dark-theme {
   height: 120px;
   border-radius: 50%;
   justify-self: center;
+  object-fit: cover;
   margin-bottom: var(--mb-1);
   aspect-ratio: 1/1;
 }

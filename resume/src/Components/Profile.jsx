@@ -11,7 +11,6 @@ export const Profile = ({
   social,
   isMobileView,
 }) => {
-  console.log({ isMobileView })
   return (
     <section className="home section" id="home">
       <Options />
