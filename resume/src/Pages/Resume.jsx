@@ -34,15 +34,15 @@ export const Resume = () => {
         <div className="resume" id="area-cv">
           <div className="resume__left">
             <Profile {...profile} {...socialMedia} isMobileView={!matches} />
+            <AboutMe {...aboutMe} />
             <Skills {...skills} />
           </div>
           <div className="resume__right">
-            {/* <Works {...experience} /> */}
-            <AboutMe {...aboutMe} />
+            <Works {...experience} />
             <Academic {...experience} />
             <Projects {...experience} />
             <Activities {...activities} />
-            <Interests {...interests} />
+            {/* <Interests {...interests} /> */}
           </div>
         </div>
       </main>
