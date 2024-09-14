@@ -6,20 +6,20 @@ export const Menu = {
       className: "bx-home",
     },
     {
+      label: "Profile",
+      section: "#profile",
+      className: "bx-user",
+    },
+    {
       label: "Skills",
       section: "#skills",
       className: "bx-receipt",
     },
     {
-      label: "Profile",
-      section: "#profile",
-      className: "bx-user",
+      label: "Experience",
+      section: "#experience",
+      className: "bx-briefcase-alt",
     },
-    // {
-    //   label: "Experience",
-    //   section: "#experience",
-    //   className: "bx-briefcase-alt",
-    // },
     {
       label: "Education",
       section: "#education",
@@ -27,7 +27,7 @@ export const Menu = {
     },
     {
       label: "Projects",
-      section: "#projects",
+      section: "#proyects",
       className: "bx-award",
     },
   ],
